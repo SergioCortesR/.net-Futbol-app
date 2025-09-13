@@ -1,0 +1,41 @@
+# Archivos binarios y de compilación
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
+
+# Configuración de usuario
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Archivos de VS Code
+.vscode/
+
+# Archivos de Visual Studio
+.vs/
+
+# Archivos de dependencias
+packages/
+*.nupkg
+
+# Archivos de pruebas
+TestResult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Archivos de SourceLink
+*.sourcelink.json
+Web.sourcelink.json
+
+# Otros
+_ReSharper*/
+*.bak
+*.swp
