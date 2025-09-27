@@ -7,17 +7,21 @@ namespace Web.Controllers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
+/// <summary>
+/// Es un controlador de los jugadores.
+/// </summary>
 [Route("[controller]")]
 [ApiController]
-#pragma warning disable SA1600 // Elements should be documented
 public class PlayersController : ControllerBase
-#pragma warning restore SA1600 // Elements should be documented
 {
+    /// <summary>
+    /// Función para saludar.
+    /// </summary>
+    /// <returns>Regresa un saludo.</returns>
     [HttpGet]
-#pragma warning disable SA1600 // Elements should be documented
     public IActionResult Saludar()
-#pragma warning restore SA1600 // Elements should be documented
     {
-        return this.Ok("Hola jugadores");
+        Console.WriteLine("Hola jugadores desde la terminal");
+        return this.Ok("Hola jugadores con watch");
     }
 }
